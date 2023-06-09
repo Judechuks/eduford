@@ -498,10 +498,7 @@ h3{
     }
 }
 
-@media(max-width: 320px) {
-  .contact-us{
-   width: 96%;
-  }
+@media(max-width: 410px) {
   .contact-col{
    flex-basis: 50%;
   }
@@ -511,6 +508,21 @@ h3{
    margin-right: 20px;
  }
   .contact-col div h4{
+   font-size: 1rem;
+ }
+}
+
+@media(max-width: 325px) {
+  .contact-us{
+   width: 90%;
+  }
+  .contact-col div h4{
    font-size: .8rem;
  }
+}
+
+@media(max-width: 290px) {
+  .contact-us{
+   width: 96%;
+  }
 }
