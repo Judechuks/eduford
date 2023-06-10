@@ -498,31 +498,30 @@ h3{
     }
 }
 
-@media(max-width: 410px) {
-  .contact-col{
-   flex-basis: 50%;
+@media(max-width: 420px) {
+  .contact-us{
+   width: 80%;
   }
   .contact-col div .fa{
    font-size: 1.45rem; 
    margin: 4px;
-   margin-right: 20px;
+   margin-right: 10px;
+ }
+ .contact-col span{
+   flex-basis: 100%;
  }
   .contact-col div h4{
    font-size: 1rem;
  }
 }
 
-@media(max-width: 325px) {
+@media(max-width: 390px) {
   .contact-us{
-   width: 90%;
+   width: 100%;
   }
+}
+@media(max-width: 325px) {
   .contact-col div h4{
    font-size: .8rem;
  }
-}
-
-@media(max-width: 290px) {
-  .contact-us{
-   width: 96%;
-  }
 }
